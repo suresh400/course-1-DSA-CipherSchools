@@ -1,0 +1,77 @@
+// Online C++ compiler to run C++ program online
+#include <iostream>
+using namespace std;
+int main() {
+    // Write C++ code here
+    // float a;
+    // cin>>a;
+    // if(a>0.01){
+    //     cout<<"The condition in if statement is correct";
+    // }
+    
+    // float a,b;
+    // cout<<"input two float values a and b: "<<endl;
+    // cin>>a>>b;
+    
+    //  only if condition statement
+    // if(a>0.01 && b>a){   // try by || 
+    //     cout<<"The condition in if statement is correct";
+    // }
+    // return 0;
+    
+    
+    //  if-else condition statements
+    // int marks;
+    // cout<<"Student, please enter the your marks to calculate the grade"<<endl;
+    // cin>>marks;
+    
+    // if(marks>90){
+    //     cout<<"A";
+    // }
+    // if(marks<90 && marks>80){
+    //     cout<<"B";
+    // }
+    // if(marks<80 && marks>70){
+    //     cout<<"C";
+    // }
+    // if(marks<70 && marks>40){
+    //     cout<<"Pass";
+    // }
+    // else{
+    //     cout<<"Fail, Better Luck next TIME!!";
+    // }
+    
+    //  if -- else if --else condition statement
+    // int a,b,c,d;
+    // cout<<"Enter four inputs a,b,c and d"<<endl;
+    // cin>>a>>b>>c>>d;
+    
+    // if(a>b && c>d){
+    //     cout<<"haha";
+    // }
+    // else if(a>b &&  c<d){
+    //     cout<<"hehe";
+    // }
+    // else{
+    //     cout<<"huhu";
+    // }
+    
+    // switch condition statements
+    
+    int a;
+    cout<<"Enter an integer a: ";
+    cin>>a;
+    
+    switch (a){
+        case 1:
+            cout<<"hehe";
+            break;
+        case 2:
+            cout<<"haha";
+            break;
+        default:
+            cout<<"Default will be always printed";
+            break;
+    }
+    
+}
